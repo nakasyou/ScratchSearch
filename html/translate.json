@@ -1,0 +1,14 @@
+{
+  "invald id or not found id.":{
+    "ja":"idが不正か、idが存在しません。"
+  },
+  "Search string must be at least 5 characters":{
+    "ja":"検索する文字列のながさは5文字以上にしてくださいー"
+  },
+  "There is no search result":{
+    "ja":"検索結果がありません..."
+  },
+  "Enter the ID and it will be added to the index":{
+    "ja":"IDを入力するとインデックスに追加されます"
+  }
+}

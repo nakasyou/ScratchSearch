@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <style>
+      body{font-family:"Sawarabi Gothic"}
+      iflame{
+        transform:scale(0.55);transform-origin:0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>{{info["title"]}}</h1>
+    <p>id:{{id}}</p>
+    <p>View:{{info["stats"]["views"]}} Love:{{info["stats"]["loves"]}} Favorite:{{info["stats"]["favorites"]}}</p>
+    <div>
+      <a href="https://scratch.mit.edu/projects/{{id}}">Scratch</a>
+      <a href="https://turbowarp.org/{{id}}">TurboWarp</a>
+      <a href="https://forkphorus.github.io/#{{id}}">forkphorus</a>
+    </div>
+    
+    <br>
+    <div>
+      <p>Scratch</p>
+      <iframe src="https://scratch.mit.edu/projects/{{id}}/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <p>TurboWarp</p>
+      <iframe src="https://turbowarp.org/{{id}}/embed" width="499" height="416" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
